@@ -50,7 +50,7 @@ function Contact() {
                     />
                 </div>
                 <div className="header-right-icon">
-                    <img className='dark-light' src='/Darklight.png' alt="Theme Icon" />
+                    <img className='dark-light' src='/kekishvili-portfolio/Darklight.png' alt="Theme Icon" />
                 </div>
             </div>
             <div className="form-container" data-aos="fade-right">

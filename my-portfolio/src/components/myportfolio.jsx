@@ -65,7 +65,7 @@ function Myportfolio() {
                         <a href="#contact" className="contact">Contact</a>
                     </div>
                     <div className="header-right-icon">
-                        <img className='dark-light' src='/Darklight.png' alt="Theme Icon" href="" />
+                        <img className='dark-light' src='/kekishvili-portfolio/Darklight.png' alt="Theme Icon" />
                     </div>
                 </div>
             </div>
@@ -127,12 +127,12 @@ function Myportfolio() {
                             <div className="cards-image">
                                 <img
                                     src={
-                                        index === 0 ? '/Cold.png' :
-                                        index === 1 ? '/Sugar.png' :
-                                        index === 2 ? '/Redsun.png' :
-                                        index === 3 ? '/Cold.png' :
-                                        index === 4 ? '/Sugar.png' :
-                                        '/Redsun.png'
+                                        index === 0 ? '/kekishvili-portfolio/Cold.png' :
+                                        index === 1 ? '/kekishvili-portfolio/Sugar.png' :
+                                        index === 2 ? '/kekishvili-portfolio/Redsun.png' :
+                                        index === 3 ? '/kekishvili-portfolio/Cold.png' :
+                                        index === 4 ? '/kekishvili-portfolio/Sugar.png' :
+                                        '/kekishvili-portfolio/Redsun.png'
                                     }
                                     alt={`Project ${index + 1}`}
                                 />
@@ -156,9 +156,9 @@ function Myportfolio() {
                     <div className="footer-contact">CONTACT</div>
                 </div>
                 <div className="footer-bottom">
-                    <a href='#' onClick={handleEmailClick}><img src='/mail.png' alt="Mail" /> Send an email</a>
-                    <a href='https://www.linkedin.com/in/saba-kekishvili-507ba4285/'><img src='/linkdin.png' alt="LinkedIn" />LinkedIn</a>
-                    <a href='https://github.com/SabaKekishvili'><img src='/github.png' alt="GitHub" />GitHub</a>
+                    <a href='#' onClick={handleEmailClick}><img src='/kekishvili-portfolio/mail.png' alt="Mail" /> Send an email</a>
+                    <a href='https://www.linkedin.com/in/saba-kekishvili-507ba4285/'><img src='/kekishvili-portfolio/linkdin.png' alt="LinkedIn" />LinkedIn</a>
+                    <a href='https://github.com/SabaKekishvili'><img src='/kekishvili-portfolio/github.png' alt="GitHub" />GitHub</a>
                 </div>
             </div>
         </div>
